@@ -17,13 +17,19 @@ System.config({
     "build.js": [
       "lib/main.js",
       "github:components/jquery@2.1.4.js",
-      "npm:pouchdb@4.0.0.js",
+      "github:Dogfalo/materialize@0.97.0.js",
       "github:moment/moment@2.10.6.js",
+      "npm:pouchdb@4.0.0.js",
       "npm:relational-pouch@1.3.2.js",
-      "npm:pouchdb@4.0.0/lib/index.js",
-      "github:moment/moment@2.10.6/moment.js",
+      "npm:vue@0.12.10.js",
+      "npm:vue-router@0.5.1.js",
       "github:components/jquery@2.1.4/jquery.js",
+      "github:Dogfalo/materialize@0.97.0/dist/js/materialize.js",
+      "github:moment/moment@2.10.6/moment.js",
+      "npm:pouchdb@4.0.0/lib/index.js",
       "npm:relational-pouch@1.3.2/lib/index.js",
+      "npm:vue@0.12.10/src/vue.js",
+      "npm:vue-router@0.5.1/lib/index.js",
       "npm:pouchdb@4.0.0/lib/setup.js",
       "npm:pouchdb@4.0.0/lib/deps/ajax/prequest-browser.js",
       "npm:pouchdb@4.0.0/lib/utils.js",
@@ -38,18 +44,42 @@ System.config({
       "npm:relational-pouch@1.3.2/pouch-utils.js",
       "npm:relational-pouch@1.3.2/lib/collections.js",
       "npm:relational-pouch@1.3.2/lib/uuid.js",
+      "npm:vue@0.12.10/src/util/index.js",
+      "npm:vue@0.12.10/src/api/global.js",
+      "npm:vue@0.12.10/src/directives/index.js",
+      "npm:vue@0.12.10/src/element-directives/index.js",
+      "npm:vue@0.12.10/src/filters/index.js",
+      "npm:vue@0.12.10/src/instance/init.js",
+      "npm:vue@0.12.10/src/instance/events.js",
+      "npm:vue@0.12.10/src/instance/scope.js",
+      "npm:vue@0.12.10/src/instance/compile.js",
+      "npm:vue@0.12.10/src/instance/misc.js",
+      "npm:vue@0.12.10/src/api/data.js",
+      "npm:vue@0.12.10/src/api/dom.js",
+      "npm:vue@0.12.10/src/api/events.js",
+      "npm:vue@0.12.10/src/api/child.js",
+      "npm:vue@0.12.10/src/api/lifecycle.js",
+      "npm:babel-runtime@5.8.20/helpers/interop-require-default.js",
+      "npm:vue-router@0.5.1/lib/util.js",
+      "npm:vue-router@0.5.1/lib/router/index.js",
+      "npm:vue-router@0.5.1/lib/router/api.js",
+      "npm:vue-router@0.5.1/lib/router/internal.js",
+      "npm:vue-router@0.5.1/lib/directives/view.js",
+      "npm:vue-router@0.5.1/lib/directives/link.js",
+      "npm:vue-router@0.5.1/lib/override.js",
+      "github:Dogfalo/materialize@0.97.0/dist/css/materialize.css!github:systemjs/plugin-css@0.1.13.js",
       "github:jspm/nodelibs-events@0.1.1.js",
       "npm:pouchdb@4.0.0/lib/constructor.js",
+      "npm:pouchdb@4.0.0/lib/deps/env/hasLocalStorage-browser.js",
       "npm:pouchdb@4.0.0/lib/deps/ajax/ajax-core.js",
       "npm:pouchdb-extend@0.1.2.js",
-      "npm:pouchdb@4.0.0/lib/deps/env/hasLocalStorage-browser.js",
       "npm:argsarray@0.0.1.js",
       "npm:pouchdb-collections@1.0.1.js",
       "npm:inherits@2.0.1.js",
       "npm:debug@2.2.0.js",
       "npm:vuvuzela@1.0.1.js",
-      "npm:pouchdb@4.0.0/lib/deps/uuid.js",
       "npm:pouchdb@4.0.0/lib/merge.js",
+      "npm:pouchdb@4.0.0/lib/deps/uuid.js",
       "npm:pouchdb@4.0.0/lib/deps/docs/parseDoc.js",
       "npm:pouchdb@4.0.0/lib/deps/promise.js",
       "npm:pouchdb@4.0.0/lib/deps/binary/base64.js",
@@ -76,14 +106,58 @@ System.config({
       "npm:pouchdb@4.0.0/lib/adapters/websql/index.js",
       "npm:uniq@1.0.1/uniq.js",
       "npm:lie@2.9.1.js",
+      "npm:vue@0.12.10/src/util/lang.js",
+      "npm:vue@0.12.10/src/util/env.js",
+      "npm:vue@0.12.10/src/util/dom.js",
+      "npm:vue@0.12.10/src/util/options.js",
+      "npm:vue@0.12.10/src/util/component.js",
+      "npm:vue@0.12.10/src/util/debug.js",
+      "npm:vue@0.12.10/src/compiler/index.js",
+      "npm:vue@0.12.10/src/config.js",
+      "npm:vue@0.12.10/src/parsers/path.js",
+      "npm:vue@0.12.10/src/parsers/text.js",
+      "npm:vue@0.12.10/src/parsers/template.js",
+      "npm:vue@0.12.10/src/parsers/directive.js",
+      "npm:vue@0.12.10/src/parsers/expression.js",
+      "npm:vue@0.12.10/src/directives/text.js",
+      "npm:vue@0.12.10/src/directives/html.js",
+      "npm:vue@0.12.10/src/directives/attr.js",
+      "npm:vue@0.12.10/src/directives/show.js",
+      "npm:vue@0.12.10/src/directives/class.js",
+      "npm:vue@0.12.10/src/directives/el.js",
+      "npm:vue@0.12.10/src/directives/ref.js",
+      "npm:vue@0.12.10/src/directives/cloak.js",
+      "npm:vue@0.12.10/src/directives/style.js",
+      "npm:vue@0.12.10/src/directives/transition.js",
+      "npm:vue@0.12.10/src/directives/on.js",
+      "npm:vue@0.12.10/src/directives/model/index.js",
+      "npm:vue@0.12.10/src/directives/repeat.js",
+      "npm:vue@0.12.10/src/directives/if.js",
+      "npm:vue@0.12.10/src/directives/component.js",
+      "npm:vue@0.12.10/src/directives/prop.js",
+      "npm:vue@0.12.10/src/element-directives/content.js",
+      "npm:vue@0.12.10/src/element-directives/partial.js",
+      "npm:vue@0.12.10/src/filters/array-filters.js",
+      "npm:vue@0.12.10/src/observer/index.js",
+      "npm:vue@0.12.10/src/observer/dep.js",
+      "npm:vue@0.12.10/src/watcher.js",
+      "npm:vue@0.12.10/src/directive.js",
+      "npm:vue@0.12.10/src/transition/index.js",
+      "npm:route-recognizer@0.1.9.js",
+      "npm:babel-runtime@5.8.20/helpers/class-call-check.js",
+      "npm:vue-router@0.5.1/lib/history/abstract.js",
+      "npm:vue-router@0.5.1/lib/history/hash.js",
+      "npm:vue-router@0.5.1/lib/history/html5.js",
+      "npm:vue-router@0.5.1/lib/route.js",
+      "npm:vue-router@0.5.1/lib/transition.js",
+      "github:jspm/nodelibs-events@0.1.1/index.js",
       "npm:pouchdb@4.0.0/lib/adapter.js",
       "npm:pouchdb@4.0.0/lib/taskqueue.js",
+      "npm:pouchdb@4.0.0/lib/deps/env/isChromeApp-browser.js",
       "npm:pouchdb@4.0.0/lib/deps/ajax/request-browser.js",
       "npm:pouchdb@4.0.0/lib/deps/ajax/applyTypeToBuffer-browser.js",
       "npm:pouchdb@4.0.0/lib/deps/ajax/defaultBody-browser.js",
-      "github:jspm/nodelibs-events@0.1.1/index.js",
       "npm:pouchdb-extend@0.1.2/index.js",
-      "npm:pouchdb@4.0.0/lib/deps/env/isChromeApp-browser.js",
       "npm:argsarray@0.0.1/index.js",
       "npm:pouchdb-collections@1.0.1/index.js",
       "npm:inherits@2.0.1/inherits_browser.js",
@@ -115,10 +189,25 @@ System.config({
       "npm:pouchdb@4.0.0/lib/adapters/websql/utils.js",
       "npm:pouchdb@4.0.0/lib/adapters/websql/bulkDocs.js",
       "npm:lie@2.9.1/lib/index.js",
+      "npm:vue@0.12.10/src/compiler/compile.js",
+      "npm:vue@0.12.10/src/compiler/transclude.js",
+      "npm:vue@0.12.10/src/cache.js",
+      "npm:vue@0.12.10/src/transition/transition.js",
+      "npm:vue@0.12.10/src/directives/model/text.js",
+      "npm:vue@0.12.10/src/directives/model/radio.js",
+      "npm:vue@0.12.10/src/directives/model/select.js",
+      "npm:vue@0.12.10/src/directives/model/checkbox.js",
+      "npm:vue@0.12.10/src/observer/array.js",
+      "npm:vue@0.12.10/src/observer/object.js",
+      "npm:vue@0.12.10/src/batcher.js",
+      "npm:route-recognizer@0.1.9/dist/route-recognizer.js",
+      "npm:babel-runtime@5.8.20/helpers/create-class.js",
+      "npm:babel-runtime@5.8.20/core-js/object/define-property.js",
+      "npm:vue-router@0.5.1/lib/pipeline.js",
+      "npm:events@1.0.2.js",
       "npm:pouchdb@4.0.0/lib/deps/upsert.js",
       "npm:pouchdb@4.0.0/lib/changes.js",
       "npm:pouchdb@4.0.0/lib/deps/binary/readAsArrayBuffer.js",
-      "npm:events@1.0.2.js",
       "npm:debug@2.2.0/debug.js",
       "npm:pouchdb@4.0.0/lib/deps/md5-browser.js",
       "npm:process@0.10.1.js",
@@ -130,14 +219,17 @@ System.config({
       "npm:pouchdb@4.0.0/lib/deps/docs/processDocs.js",
       "npm:lie@2.9.1/lib/promise.js",
       "npm:lie@2.9.1/lib/resolve.js",
-      "npm:lie@2.9.1/lib/reject.js",
       "npm:lie@2.9.1/lib/all.js",
+      "npm:lie@2.9.1/lib/reject.js",
       "npm:lie@2.9.1/lib/race.js",
+      "npm:vue@0.12.10/src/compiler/compile-props.js",
+      "npm:vue@0.12.10/src/transition/queue.js",
+      "npm:core-js@1.1.1/library/fn/object/define-property.js",
+      "npm:events@1.0.2/events.js",
+      "npm:pouchdb@4.0.0/lib/evalFilter.js",
       "npm:pouchdb@4.0.0/lib/evalView.js",
       "npm:pouchdb@4.0.0/lib/deps/docs/parseDdocFunctionName.js",
       "npm:pouchdb@4.0.0/lib/deps/docs/normalizeDdocFunctionName.js",
-      "npm:pouchdb@4.0.0/lib/evalFilter.js",
-      "npm:events@1.0.2/events.js",
       "npm:ms@0.7.1.js",
       "npm:process@0.10.1/browser.js",
       "npm:pouchdb-upsert@1.1.3/index.js",
@@ -149,9 +241,10 @@ System.config({
       "npm:lie@2.9.1/lib/states.js",
       "npm:lie@2.9.1/lib/queueItem.js",
       "npm:lie@2.9.1/lib/handlers.js",
-      "npm:lie@2.9.1/lib/tryCatch.js",
-      "npm:immediate@3.0.5.js",
+      "npm:core-js@1.1.1/library/modules/$.js",
       "npm:ms@0.7.1/index.js",
+      "npm:immediate@3.0.5.js",
+      "npm:lie@2.9.1/lib/tryCatch.js",
       "npm:immediate@3.0.5/lib/index.js"
     ]
   },
@@ -159,11 +252,19 @@ System.config({
   map: {
     "babel": "npm:babel-core@5.8.22",
     "babel-runtime": "npm:babel-runtime@5.8.20",
+    "clean-css": "npm:clean-css@3.3.9",
     "core-js": "npm:core-js@1.1.1",
     "jquery": "github:components/jquery@2.1.4",
+    "materialize": "github:Dogfalo/materialize@0.97.0",
     "moment": "github:moment/moment@2.10.6",
     "pouchdb": "npm:pouchdb@4.0.0",
     "relational-pouch": "npm:relational-pouch@1.3.2",
+    "vue": "npm:vue@0.12.10",
+    "vue-router": "npm:vue-router@0.5.1",
+    "github:Dogfalo/materialize@0.97.0": {
+      "css": "github:systemjs/plugin-css@0.1.13",
+      "jquery": "github:components/jquery@2.1.4"
+    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -186,6 +287,9 @@ System.config({
       "stream": "github:jspm/nodelibs-stream@0.1.0",
       "url": "github:jspm/nodelibs-url@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0"
+    },
+    "github:jspm/nodelibs-https@0.1.0": {
+      "https-browserify": "npm:https-browserify@0.0.0"
     },
     "github:jspm/nodelibs-net@0.1.2": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
@@ -320,10 +424,31 @@ System.config({
       "ieee754": "npm:ieee754@1.1.6",
       "is-array": "npm:is-array@1.0.1"
     },
+    "npm:clean-css@3.3.9": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "commander": "npm:commander@2.8.1",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "http": "github:jspm/nodelibs-http@1.7.1",
+      "https": "github:jspm/nodelibs-https@0.1.0",
+      "os": "github:jspm/nodelibs-os@0.1.0",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.1",
+      "source-map": "npm:source-map@0.4.4",
+      "url": "github:jspm/nodelibs-url@0.1.0",
+      "util": "github:jspm/nodelibs-util@0.1.0"
+    },
     "npm:clone@0.1.19": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0",
       "vm": "github:jspm/nodelibs-vm@0.1.0"
+    },
+    "npm:commander@2.8.1": {
+      "child_process": "github:jspm/nodelibs-child_process@0.1.0",
+      "events": "github:jspm/nodelibs-events@0.1.1",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "graceful-readlink": "npm:graceful-readlink@1.0.1",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:constants-browserify@0.0.1": {
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
@@ -423,6 +548,11 @@ System.config({
       "inherits": "npm:inherits@2.0.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
+    "npm:envify@3.4.0": {
+      "jstransform": "npm:jstransform@10.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.1",
+      "through": "npm:through@2.3.8"
+    },
     "npm:errno@0.1.4": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.1",
@@ -433,6 +563,10 @@ System.config({
       "jstransform": "npm:jstransform@3.0.0",
       "process": "github:jspm/nodelibs-process@0.1.1",
       "through": "npm:through@2.3.8"
+    },
+    "npm:esprima-fb@13001.1001.0-dev-harmony-fb": {
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:esprima-fb@15001.1001.0-dev-harmony-fb": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
@@ -498,12 +632,18 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.1",
       "unpipe": "npm:unpipe@1.0.0"
     },
+    "npm:graceful-readlink@1.0.1": {
+      "fs": "github:jspm/nodelibs-fs@0.1.2"
+    },
     "npm:hash.js@1.0.3": {
       "inherits": "npm:inherits@2.0.1"
     },
     "npm:http-errors@1.3.1": {
       "inherits": "npm:inherits@2.0.1",
       "statuses": "npm:statuses@1.2.1"
+    },
+    "npm:https-browserify@0.0.0": {
+      "http": "github:jspm/nodelibs-http@1.7.1"
     },
     "npm:idb-wrapper@1.5.0": {
       "process": "github:jspm/nodelibs-process@0.1.1"
@@ -524,6 +664,14 @@ System.config({
     },
     "npm:isbuffer@0.0.0": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
+    },
+    "npm:jstransform@10.1.0": {
+      "base62": "npm:base62@0.1.1",
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "esprima-fb": "npm:esprima-fb@13001.1001.0-dev-harmony-fb",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "process": "github:jspm/nodelibs-process@0.1.1",
+      "source-map": "npm:source-map@0.1.31"
     },
     "npm:jstransform@3.0.0": {
       "base62": "npm:base62@0.1.1",
@@ -854,6 +1002,15 @@ System.config({
     },
     "npm:vm-browserify@0.0.4": {
       "indexof": "npm:indexof@0.0.1"
+    },
+    "npm:vue-router@0.5.1": {
+      "babel-runtime": "npm:babel-runtime@5.8.20",
+      "process": "github:jspm/nodelibs-process@0.1.1",
+      "route-recognizer": "npm:route-recognizer@0.1.9"
+    },
+    "npm:vue@0.12.10": {
+      "envify": "npm:envify@3.4.0",
+      "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:xtend@2.0.6": {
       "is-object": "npm:is-object@0.1.2",

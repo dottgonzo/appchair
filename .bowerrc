@@ -1,0 +1,6 @@
+{
+"directory": "lib/bower",
+  "scripts": {
+    "postinstall": "wiredep -s index.html"
+  }
+}

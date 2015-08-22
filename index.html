@@ -3,8 +3,7 @@
  <meta charset="utf-8">
 <!-- <link rel="shortcut icon" href="logo.gif" > -->
 <title></title>
-<!-- bower:css -->
-<!-- endbower -->
+
 <!-- bower:js -->
 <!-- endbower -->
 <head>
@@ -13,12 +12,42 @@
 </head>
   <body>
 
+<i class="mdi mdi-bell"></i>  <!-- bell -->
+
+<div id="app">
+  <h1>Hello App!</h1>
+    <p>
+      <!-- use v-link directive for navigation. -->
+      <a v-link="/foo">Go to Foo</a>
+      <a v-link="/bar">Go to Bar</a>
+    </p>
+    <!-- route outlet -->
+    <router-view></router-view>
+
+
+
+
+<a class="waves-effect waves-light btn">Stuff</a>
+<div class="collection">
+  <a href="#!" class="collection-item">Alan<span class="badge">1</span></a>
+  <a href="#!" class="collection-item">Alan<span class="new badge">4</span></a>
+  <a href="#!" class="collection-item">Alan</a>
+  <a href="#!" class="collection-item">Alan<span class="badge">14</span></a>
+</div>
+</div>
+
+
+
+
+
     <script src="jspm_packages/system.js"></script>
     <script src="config.js"></script>
     <script>
       System.import('lib/main');
     </script>
-
+    <!-- bower:css -->
+    <link rel="stylesheet" href="lib/bower/mdi/css/materialdesignicons.min.css" />
+    <!-- endbower -->
   </body>
 
 </html>

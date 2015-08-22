@@ -1,0 +1,20 @@
+{
+  "name": "appchair",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dottgonzo/appchair",
+  "authors": [
+    "Dario Caruso <darioyzf@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mdi": "~1.2.65"
+  }
+}
