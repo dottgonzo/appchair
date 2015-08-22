@@ -2,9 +2,14 @@
   "name": "appchair",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.js#/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "jspm bundle lib/main --inject",
+    "buildify": "jspm bundle -m lib/main --inject",
+    "watch-build": "npm run build && watch-run -p 'lib/**' npm run build",
+    "develop": "npm run build && jspm-server",
+"start":"npm run buildify && jspm-server"
   },
   "repository": {
     "type": "git",
@@ -17,7 +22,8 @@
   },
   "devDependencies": {
     "jspm": "^0.16.0",
-    "jspm-server": "^0.1.8"
+    "jspm-server": "^0.1.8",
+    "watch-run": "^1.2.2"
   },
   "jspm": {
     "directories": {},
