@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "jspm bundle lib/main --inject",
     "buildify": "jspm bundle -m lib/main --inject",
-    "watch": "npm run buildify && watch-run -p 'lib/**' npm run build",
+    "watch": "watch-run -p 'lib/**' npm run build",
     "develop": "npm run buildify && jspm-server",
     "start": "npm run buildify && jspm-server"
   },
