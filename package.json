@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "jspm bundle lib/main --inject",
     "buildify": "jspm bundle -m lib/main --inject",
-    "watch-build": "npm run build && watch-run -p 'lib/**' npm run build",
-    "develop": "npm run build && jspm-server",
+    "watch": "npm run buildify && watch-run -p 'lib/**' npm run build",
+    "develop": "npm run buildify && jspm-server",
     "start": "npm run buildify && jspm-server"
   },
   "repository": {
@@ -28,7 +28,10 @@
   "jspm": {
     "directories": {},
     "dependencies": {
-      "jquery": "github:components/jquery@^2.1.4"
+      "jquery": "github:components/jquery@^2.1.4",
+      "moment": "github:moment/moment@^2.10.6",
+      "pouchdb": "npm:pouchdb@^4.0.0",
+      "relational-pouch": "npm:relational-pouch@^1.3.2"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.22",
