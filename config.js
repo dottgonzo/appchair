@@ -15,7 +15,9 @@ System.config({
   },
   bundles: {
     "build.js": [
-      "lib/main.js"
+      "lib/main.js",
+      "github:components/jquery@2.1.4.js",
+      "github:components/jquery@2.1.4/jquery.js"
     ]
   },
 
@@ -23,6 +25,7 @@ System.config({
     "babel": "npm:babel-core@5.8.22",
     "babel-runtime": "npm:babel-runtime@5.8.20",
     "core-js": "npm:core-js@1.1.1",
+    "jquery": "github:components/jquery@2.1.4",
     "github:jspm/nodelibs-process@0.1.1": {
       "process": "npm:process@0.10.1"
     },
