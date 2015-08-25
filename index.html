@@ -12,46 +12,29 @@
 </head>
   <body>
 
-<i class="mdi mdi-bell"></i>  <!-- bell -->
 
 
-<div id="demo">{{title | uppercase}}</div>
+
 
 
 
 
 <div id="app">
-  <nav>
-     <div class="nav-wrapper">
-       <a href="#" class="brand-logo">Logo</a>
-       <ul id="nav-mobile" class="right hide-on-med-and-down">
-         <li><a v-link="/">Home</a></li>
-         <li><a href="badges.html">Components</a></li>
-         <li><a href="collapsible.html">JavaScript</a></li>
-       </ul>
-     </div>
-   </nav>
 
 
-       <p>
-      <!-- use v-link directive for navigation. -->
-      <a v-link="/foo">Go to Foo</a>
-      <a v-link="/bar">Go to Bar</a>
-    </p>
+
+
+
+
     <!-- route outlet -->
     <router-view></router-view>
 
+    <p>
+  use v-link directive for navigation.
+   <a v-link="/">Go to Foo</a>
+   <a v-link="/bar">Go to Bar</a>
+ </p>
 
-
-
-<a class="waves-effect waves-light btn">Stuff</a>
-<div class="collection">
-  <a href="#!" class="collection-item">Alan<span class="badge">1</span></a>
-  <a href="#!" class="collection-item">Alan<span class="new badge">4</span></a>
-  <a href="#!" class="collection-item">Alan</a>
-  <a href="#!" class="collection-item">Alan<span class="badge">14</span></a>
-</div>
-</div>
 
 
 
